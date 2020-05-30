@@ -1,19 +1,19 @@
 body{
 background:black;
 color:white;
-font-family:Lato;
+font-family:'Lato';
 text-align:center;
 }
 h1{
 	padding-top:20px;
 	color:white;
-	font-family:Lato;
+	font-family:'Lato';
 	text-align:center;
 }
 h2{
 	padding-top:20px;
 	color:white;
-	font-family:Lato;
+	font-family:'Lato';
 	text-align:center;
 }
 /* Sidebar */	

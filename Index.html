@@ -1,0 +1,43 @@
+<DOCTYPE! html>
+<html>
+<head> 
+	<link rel="stylesheet"href="Home.css">
+	<title> Home </title> 
+</head>
+<body>
+	<!--Three Bars-->
+	<div id="threebars" class="sidenav">
+		<img alt="logo" src="Danessa.jpg">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times</a>
+		<a href="home.html">Home</a>
+		<a href="http://aer.uci.design/">Senior Design</a>
+		<a href="Presentation.html"> Presentations</a>
+		<a href="Programs.html"> Programs </a>
+		<a href="SOLIDWORKS.html">SOLIDWORKS Models</a>
+		<a href="Pulse-Oximeter.html">Pulse Oximeter</a>
+		<a href="BCI.html">BCI Machine</a>
+		<a href="Contact.html">Contact Me</a>
+	</div>
+	<!--Three Bars Icon -->
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776; </span>
+
+	<script>
+		function openNav() {
+			document.getElementById("threebars").style.display = "block";
+		}
+		function closeNav() {
+			document.getElementById("threebars").style.display = "none";
+		}
+	</script>
+	<!-- Three Bars End -->
+	<!--Introduction-->
+	<h1> Danessa Yip. </h1>
+	<img src="Danessa.jpg" alt="Danessa's Profile" width="240" height="320" class="center">
+	<p>
+		My name is Danessa Yip and I'm a Biomedical Engineering </br> graduate of University of California, Irvine, Class of 2020. <br />
+		On this website you can find my previous works and portfolio.
+	</p>
+	<!-- Embed Video -->
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/RAJej21zL6M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

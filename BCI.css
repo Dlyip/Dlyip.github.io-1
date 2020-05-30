@@ -1,34 +1,35 @@
 body{
-background:black;
-color:white;
-font-family:'Lato';
-text-align:center;
+	background:black;
+	color:white;
+	font-family:'LatoWeb';
+	text-align:center;
 }
 h1{
 	padding-top:20px;
 	color:white;
-	font-family:'Lato';
+	font-family:'LatoWeb';
 	text-align:center;
 }
 h2{
 	padding-top:20px;
 	color:white;
-	font-family:'Lato';
+	font-family:'LatoWeb';
 	text-align:center;
 }
-/* Sidebar */	
-.sidenav{
-	background-repeat:no-repeat;
-	display:none;
-	height:90%;
-	width:200px;
-	position:fixed;
-	z-index:1;
-	top:0;
-	left:0;
-	background-color:white;
-	overflow-x:hidden;
-	padding-top:60px;
+/* Sidebar */
+.sidenav {
+	background-repeat: no-repeat;
+	font-family: Lato-Regular;
+	display: none;
+	height: 90%;
+	width: 200px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: white;
+	overflow-x: hidden;
+	padding-top: 60px;
 }
 
 span{
